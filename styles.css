@@ -1,11 +1,16 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+
+/* código omitido */
+
+
 :root {
-    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo: #ff25b6b9;
+    --branco: #05ff5073;
+    --laranja: #9c13eba4;
+    --azul-degrade: linear-gradient(97.54deg, #f519ea6b 35.49%, #02e2ff56 165.37%);
 }
 
 body {
     background-color: var(--cor-de-fundo);
-}
-
-h1 {
-    background-color: white;
 }
